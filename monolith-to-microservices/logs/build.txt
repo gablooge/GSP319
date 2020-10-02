@@ -1,0 +1,79 @@
+
+> frontend@0.1.0 prebuild /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app
+> npm run build:monolith
+
+
+> frontend@0.1.0 build:monolith /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app
+> env-cmd -f .env.monolith react-scripts build
+
+Creating an optimized production build...
+Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+Compiled successfully.
+
+File sizes after gzip:
+
+  78.9 KB  build/static/js/2.7cd0ea8c.chunk.js
+  1.99 KB  build/static/js/main.e9fdb82a.chunk.js
+  774 B    build/static/js/runtime~main.066cd76b.js
+
+The project was built assuming it is hosted at the server root.
+You can control this with the homepage field in your package.json.
+For example, add this to build it for GitHub Pages:
+
+  "homepage" : "http://myname.github.io/myapp",
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://bit.ly/CRA-deploy
+
+
+> frontend@0.1.0 postbuild:monolith /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app
+> node scripts/post-build.js ./build ../monolith/public
+
+Deleting stale folder: ../monolith/public
+Deleted stale destination folder: ../monolith/public
+Copying files from ./build to ../monolith/public
+Copied ./build to ../monolith/public successfully!
+
+> frontend@0.1.0 build /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  78.9 KB          build/static/js/2.7cd0ea8c.chunk.js
+  2.01 KB (+19 B)  build/static/js/main.2f148941.chunk.js
+  774 B            build/static/js/runtime~main.066cd76b.js
+
+The project was built assuming it is hosted at the server root.
+You can control this with the homepage field in your package.json.
+For example, add this to build it for GitHub Pages:
+
+  "homepage" : "http://myname.github.io/myapp",
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://bit.ly/CRA-deploy
+
+
+> frontend@0.1.0 postbuild /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app
+> node scripts/post-build.js ./build ../microservices/src/frontend/public
+
+Deleting stale folder: ../microservices/src/frontend/public
+Deleted stale destination folder: ../microservices/src/frontend/public
+Copying files from ./build to ../microservices/src/frontend/public
+Copied ./build to ../microservices/src/frontend/public successfully!

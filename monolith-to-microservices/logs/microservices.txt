@@ -1,0 +1,6 @@
+npm WARN microservices@1.0.0 No description
+npm WARN microservices@1.0.0 No repository field.
+
+added 138 packages from 84 contributors and audited 138 packages in 39.331s
+found 3 vulnerabilities (2 low, 1 high)
+  run `npm audit fix` to fix them, or `npm audit` for details

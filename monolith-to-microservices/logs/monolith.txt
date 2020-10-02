@@ -1,0 +1,6 @@
+npm WARN monolith@1.0.0 No description
+npm WARN monolith@1.0.0 No repository field.
+
+added 50 packages from 37 contributors and audited 50 packages in 6.733s
+found 0 vulnerabilities
+

@@ -1,0 +1,75 @@
+
+> fsevents@1.2.9 install /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app/node_modules/chokidar/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+node-pre-gyp WARN Tried to download(404): https://fsevents-binaries.s3-us-west-2.amazonaws.com/v1.2.9/fse-v1.2.9-node-v83-darwin-x64.tar.gz 
+node-pre-gyp WARN Pre-built binaries not found for fsevents@1.2.9 and node@14.8.0 (node-v83 ABI, unknown) (falling back to source compile with node-gyp) 
+  SOLINK_MODULE(target) Release/.node
+  CXX(target) Release/obj.target/fse/fsevents.o
+In file included from ../fsevents.cc:6:
+In file included from ../../../../nan/nan.h:2884:
+../../../../nan/nan_typedarray_contents.h:34:43: warning: 'GetContents' is deprecated: Use GetBackingStore. See http://crbug.com/v8/9908. [-Wdeprecated-declarations]
+      data   = static_cast<char*>(buffer->GetContents().Data()) + byte_offset;
+                                          ^
+/Users/samsulhadi/Library/Caches/node-gyp/14.8.0/include/node/v8.h:5265:3: note: 'GetContents' has been explicitly marked deprecated here
+  V8_DEPRECATE_SOON("Use GetBackingStore. See http://crbug.com/v8/9908.")
+  ^
+/Users/samsulhadi/Library/Caches/node-gyp/14.8.0/include/node/v8config.h:402:39: note: expanded from macro 'V8_DEPRECATE_SOON'
+# define V8_DEPRECATE_SOON(message) [[deprecated(message)]]
+                                      ^
+1 warning generated.
+  SOLINK_MODULE(target) Release/fse.node
+  COPY /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app/node_modules/chokidar/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64/fse.node
+  TOUCH Release/obj.target/action_after_build.stamp
+
+> fsevents@1.2.9 install /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app/node_modules/jest-haste-map/node_modules/fsevents
+> node install
+
+node-pre-gyp WARN Using request for node-pre-gyp https download 
+node-pre-gyp WARN Tried to download(404): https://fsevents-binaries.s3-us-west-2.amazonaws.com/v1.2.9/fse-v1.2.9-node-v83-darwin-x64.tar.gz 
+node-pre-gyp WARN Pre-built binaries not found for fsevents@1.2.9 and node@14.8.0 (node-v83 ABI, unknown) (falling back to source compile with node-gyp) 
+  SOLINK_MODULE(target) Release/.node
+  CXX(target) Release/obj.target/fse/fsevents.o
+In file included from ../fsevents.cc:6:
+In file included from ../../../../nan/nan.h:2884:
+../../../../nan/nan_typedarray_contents.h:34:43: warning: 'GetContents' is deprecated: Use GetBackingStore. See http://crbug.com/v8/9908. [-Wdeprecated-declarations]
+      data   = static_cast<char*>(buffer->GetContents().Data()) + byte_offset;
+                                          ^
+/Users/samsulhadi/Library/Caches/node-gyp/14.8.0/include/node/v8.h:5265:3: note: 'GetContents' has been explicitly marked deprecated here
+  V8_DEPRECATE_SOON("Use GetBackingStore. See http://crbug.com/v8/9908.")
+  ^
+/Users/samsulhadi/Library/Caches/node-gyp/14.8.0/include/node/v8config.h:402:39: note: expanded from macro 'V8_DEPRECATE_SOON'
+# define V8_DEPRECATE_SOON(message) [[deprecated(message)]]
+                                      ^
+1 warning generated.
+  SOLINK_MODULE(target) Release/fse.node
+  COPY /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app/node_modules/jest-haste-map/node_modules/fsevents/lib/binding/Release/node-v83-darwin-x64/fse.node
+  TOUCH Release/obj.target/action_after_build.stamp
+
+> core-js@2.6.9 postinstall /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app/node_modules/babel-runtime/node_modules/core-js
+> node scripts/postinstall || echo "ignore"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> core-js@3.1.4 postinstall /Users/samsulhadi/Projects/Qwiklabs/11765. Build a Website on Google Cloud - Challenge Lab/monolith-to-microservices/react-app/node_modules/core-js
+> node scripts/postinstall || echo "ignore"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+added 1621 packages from 750 contributors and audited 1621 packages in 241.081s
+found 42275 vulnerabilities (42242 low, 21 moderate, 12 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
